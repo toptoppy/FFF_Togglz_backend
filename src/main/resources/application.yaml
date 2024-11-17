@@ -26,8 +26,18 @@ togglz:
       enabled: false
     release_toggle:
       enabled: false
+    debug_Logs:
+      enabled: false
+
 management:
   endpoints:
     web:
       exposure:
         include: health,togglz
+
+logging:
+  level:
+    org:
+      togglz: INFO
+      springframework.web.cors: INFO
+      springframework.security: INFO

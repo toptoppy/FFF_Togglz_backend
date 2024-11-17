@@ -9,6 +9,7 @@ public final class FeatureFlags {
     public static final Feature UPDATE_FLAG = new NamedFeature("update_flag");
     public static final Feature CHARGE = new NamedFeature("charge_layer");
     public static final Feature NASA = new NamedFeature("nasa_emblem");
+    public static final Feature DEBUG_LOGS = new NamedFeature("debug_Logs");
 
     private FeatureFlags() {
     }
